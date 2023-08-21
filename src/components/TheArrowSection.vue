@@ -5,8 +5,8 @@ defineProps(['imgLink','Url'])
 </script>
 <template>
     <div class="arrow_section">
-        <img :src="imglink" alt="" class="v_1">
-        <img :src="url" alt="" class="v_2">
+        <img :src="imgLink" alt="" class="v_1">
+        <img :src="Url" alt="" class="v_2">
     </div>
 </template>
 
@@ -33,7 +33,11 @@ transform: rotate(6deg);
 
 
 @media (min-width: 1024px) {
-   .arrow_section .v_1{
+.arrow_section{
+    display: flex;
+    flex-direction: row;
+}
+    .arrow_section .v_1{
         max-width: 28.394px;
         height: 34.446px;
         transform: rotate(107.943deg);

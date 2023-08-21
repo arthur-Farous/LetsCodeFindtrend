@@ -1,7 +1,7 @@
 <script setup>
 import InformationCard from './InformationCard.vue';
 import ButtonComponent from './ButtonComponent.vue';
-import TheArrow from './TheArrow.vue';
+import TheArrowSection from './TheArrowSection.vue';
 import file1 from '../assets/Arrow 5.svg';
 import file2 from '../assets/Save.svg';
 </script>
@@ -14,7 +14,7 @@ import file2 from '../assets/Save.svg';
           <div class="date"><p>Monthly</p>
           <img src="../assets/toggleButton.png" alt=""/>
           <p>Yearly</p>
-          <TheArrow      :imgLink="file1"  :url="file2 " />
+          <div class="double"><TheArrowSection     :imgLink="file1"  :Url="file2 " /></div>
           </div>
           <div class="card-container">
           
@@ -48,18 +48,18 @@ import file2 from '../assets/Save.svg';
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  gap:20px;
+  gap:40px;
   padding-top: 80px;
   }
 
   .numero_1,.numero_3{
     background-color:white;
   border-radius: 20px;
-  max-width: 360px;
+ /* max-width: 360px;
 width:100%;
 max-height:602px;
-height: 100%;
-  padding:30px 30px 30px 30px;
+height: 100%;*/
+  padding:30px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,11 +71,11 @@ height: 100%;
  .numero_2{
     background-color: #A8FF35;
   border-radius: 20px;
-  max-width: 360px;
+  /*max-width: 360px;
 width:100%;
 max-height:602px;
-height: 100%;
-padding:30px 30px 30px 30px;
+height: 100%;*/
+padding:20px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,7 +84,7 @@ padding:30px 30px 30px 30px;
     gap:56px
  }
 
- .date img{
+ .double img{
   display:flex;
   align-items: center;
   max-width: 104px;
@@ -102,8 +102,12 @@ padding:30px 30px 30px 30px;
 .Best{
     justify-content: center;
     align-items: center;
+    
 }
 
+.Best h1{
+padding-top: 140px;
+}
 .card-container{
     flex-direction: row;
     display: flex;
@@ -111,8 +115,8 @@ padding:30px 30px 30px 30px;
   gap:20px;
   justify-content: center;
   padding-top: 20px;
-  padding-left:100px;
-  padding-right: 100px;
+  padding-left:50px;
+  padding-right: 50px;
 }
 
 .numero_1{
@@ -122,5 +126,6 @@ height: 100%;
 max-height: 640px;
 flex-shrink: 0;
 }
+
 }
 </style>

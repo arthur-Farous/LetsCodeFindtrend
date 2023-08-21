@@ -46,6 +46,10 @@ defineProps(['h2','h5','h1','li1','li2','li3','li4','li5','li6'])
     justify-content: center;
     margin: auto 0;
     align-items: center;
+    padding-top:140px;
+    padding-bottom: 140px;
+    padding-right: 150px;
+    border-radius: 16px;
 
 }
 .free{
@@ -62,7 +66,7 @@ defineProps(['h2','h5','h1','li1','li2','li3','li4','li5','li6'])
     margin: auto 0;
     align-items: center;
     gap:56px;
-    padding:30px 30px 30px 30px;
+     /*padding:30px 30px 30px 30px;*/
 }
 .xoxo h1{
     color: #000;

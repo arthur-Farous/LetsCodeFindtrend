@@ -11,6 +11,7 @@ import TheSectionFive from './components/TheSectionFive.vue';
 import TheSectionSix from './components/TheSectionSix.vue';
 import TheFooter from './components/TheFooter.vue';
 import InformationCard from './components/InformationCard.vue';
+import TheArrowSection from './components/TheArrowSection.vue';
 </script>
 
 <template>
