@@ -45,6 +45,7 @@ import ButtonComponent from './ButtonComponent.vue';
 
 .part_4{
     padding-bottom: 80px;
+    
 }
 .part_4 h2{
     color: #000;

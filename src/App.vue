@@ -6,12 +6,13 @@ import TheCardComponent from './components/TheCardComponent.vue';
 import TheSectionTwo from './components/TheSectionTwo.vue';
 import TheSectionThree from './components/TheSectionThree.vue';
 import AfflictionsCard from './components/AfflictionsCard.vue';
-import TheSectionFour from './components/TheSectionFour.vue';
+import TheFourthSection  from './components/TheFourthSection.vue';
 import TheSectionFive from './components/TheSectionFive.vue';
 import TheSectionSix from './components/TheSectionSix.vue';
 import TheFooter from './components/TheFooter.vue';
 import InformationCard from './components/InformationCard.vue';
 import TheArrowSection from './components/TheArrowSection.vue';
+
 </script>
 
 <template>
@@ -22,7 +23,7 @@ import TheArrowSection from './components/TheArrowSection.vue';
   </section>
   <TheSectionTwo/>
   <TheSectionThree/>
-  <TheSectionFour/>
+  <TheFourthSection/>
   <TheSectionFive/>
   <TheSectionSix/>
   <TheFooter/>
